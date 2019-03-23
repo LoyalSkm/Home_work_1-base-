@@ -7,4 +7,4 @@ C = input("2 var: 1st value: ")
 D = input("2 var: Second: ")
 E = input("2 var: Third: ")
 C, D, E = E, C, D
-print("1st " + str(E) + "; Second: " + str(C) + "; Third: " + str(D))
+print("1st " + str(E) + "; Second: " + str(C) + "; Third: " + str(D)) #assodgijsognsdpfkas\fmpogsdg
