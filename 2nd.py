@@ -1,10 +1,17 @@
-A = input("1 var: 1st value: ")
-B = input("1 var: Second: ")
+A = input("Enter A: ")
+B = input("Enter B: ")
 A, B = B, A
-print("1st value is " + str(A) + "; Second is: " + str(B))
+print("A = " + str(A) + "; B = " + str(B))
 
-C = input("2 var: 1st value: ")
-D = input("2 var: Second: ")
-E = input("2 var: Third: ")
+C = input("Enter C: ")
+D = input("Enter D: ")
+E = input("Enter E: ")
 C, D, E = E, C, D
-print("1st " + str(E) + "; Second: " + str(C) + "; Third: " + str(D)) #assodgijsognsdpfkas\fmpogsdg
+print("C = " + str(E) + "; D = " + str(C) + "; E = " + str(D)) #assodgijsognsdpfkas\fmpogsdg
+
+F = input("Enter F: ")
+J = input("Enter J: ")
+if F:
+    print("F = " + str(J))
+if J:
+    print("J = " + str(F))
